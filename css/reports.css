@@ -1,0 +1,45 @@
+@page {
+  size: A4;
+  margin: 0.5mm;
+}
+html,body {
+    height:100%;;
+}
+body{
+    margin-left: 1cm;
+    margin-right: 1cm;
+}
+hr{
+    margin: 0px;
+    border: 1px solid black;
+}
+h1{
+    font-size: 140%;
+    font-weight: bolder;
+}
+h2{
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 120%;
+}
+h1,h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 100%;
+}
+table{
+    width: 100%;
+}
+table thead{
+    font-weight: bolder;
+}
+td { 
+    padding: 2px;
+}
+footer {
+    position: relative;
+    height: 40px;
+    clear: both;
+    text-align: center;
+}
